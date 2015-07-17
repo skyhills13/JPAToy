@@ -1,0 +1,107 @@
+* {
+    font-family: 'DejaVu Serif', Georgia, "Times New Roman", Times, serif;
+}
+
+body {
+    background-color: #FDFBF6;
+}
+
+#container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+#inner-container {
+    position: relative;
+    width: 30%;
+    left: 50%;
+    top: 20%;
+    margin-left: 15%;
+    width: 300px;
+    margin-left: -150px;
+}
+
+.errorMessage {
+    margin: 5px;
+    padding: 10px;
+    background-color: #FFC0CB;
+    color: red;
+    font-size: 0.9em;
+    font-weight: bold;
+    border: 1em solid red;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+a {
+    margin-top: 10px;
+    font-size: 0.8em;
+    font-style: normal;
+    cursor: pointer;
+    text-align: left;
+}
+
+form {
+    margin-top: 10px;
+    padding-bottom: 20px;
+}
+
+input {
+    display: block;
+    width: 100%;
+    height: 50px;
+    font-size: 2em;
+    text-align: center;
+    padding: 0.5em;
+}
+
+input[type=submit] {
+    padding: 5px 15px;
+    background: #ccc;
+    border: 0 none;
+    cursor: pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+input[type=submit]:hover {
+    background-color: #999999;
+}
+
+h1 {
+    width: 300px;
+    font-family: Helvetica;
+    font-style: italic;
+    text-align: center;
+    margin-left: -150px;
+    margin-top: 100px;
+}
+
+.row {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.row * {
+
+}
+
+.row .title {
+    font-family: Helvetica, sans-serif;
+    font-size: 1em;
+    color: dimgray;
+    text-decoration: none;
+}
+
+.row .time {
+    position: absolute;
+    font-size: 0.5em;
+    text-align: right;
+    right: 5px;
+    bottom: 5px;
+    color: #999999;
+    text-decoration: none;
+}

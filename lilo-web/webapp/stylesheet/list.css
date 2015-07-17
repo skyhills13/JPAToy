@@ -1,0 +1,60 @@
+ol.board {
+    display: table;
+    color: #999;
+    border-bottom: 1px solid #e5e5e5;
+    margin-top: 10px;
+    list-style-type: none;
+    width: 150%;
+    margin-left: -25%;
+}
+
+.board li {
+    list-style: none;
+    padding: 10px 15px 10px 25px;
+    border: 1px solid #CCC;
+    box-shadow: inset 1px 1px 0 rgba(255, 255, 255, 0.5);
+    margin-bottom: 4px;
+    width: 100%;
+    box-sizing: border-box;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+}
+
+.board li:hover {
+    border: 1px solid #999999;
+}
+
+ol.pagination {
+    display: table;
+    width: 250%;
+    margin-left: -75%;
+    text-align: center;
+}
+
+.pagination li {
+    list-style: none;
+    display: inline-block;
+    margin: 0px 5px;
+    height: 20px;
+    width: 30px;
+    border: 1px solid #CCCCCC;
+    padding: auto;
+}
+
+.pagination a{
+    color: black;
+    text-align: center;
+    display: inline-block;
+    width: inherit;
+    height: inherit;
+    margin-top: 0px !important;
+}
+
+.pagination li.active {
+    display: inline-block;
+}
+
+.pagination li.disabled {
+    display: none;
+}

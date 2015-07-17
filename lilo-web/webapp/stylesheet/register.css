@@ -1,0 +1,17 @@
+
+
+
+input[type="text"],
+#inner-container textarea {
+    text-align: center;
+    font-size: 1em;
+    color: black;
+    margin-top: 5px;
+    margin-bottom: 7px;
+    border: 1px solid #CCCCCC;
+    height: auto;
+    padding: 20px;
+    width: 100%;
+    color: #8a97a0;
+    resize: none;
+}

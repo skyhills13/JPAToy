@@ -1,0 +1,32 @@
+-TODO------------------------------------------------------------------
+
+백앤드
+    CommentController, Comment domain Class, Test Code 만들기
+    Custom Exception을 활용하여 Refactoring (Global하게 사용가능하도록 리팩토링)
+    Constant를 활용한 refactoring
+    TestCode Refactoring (메서드명 한글화, verify 적용 등, 기준을 정해서 진행)
+    DBExporter 추가하기
+    공란입력에 대한 처리
+
+학습
+
+프론트엔드
+    댓글에 대한 UI componenet 만들기
+    jsp include방식으로 변경
+
+
+-DONE------------------------------------------------------------------
+
+게시판에 글을 업로드할 수 있다.
+게시판의 글을 조회할 수 있다.
+게시판의 글을 수정할 수 있다.
+리팩토링 (url)
+리팩토링 (negative 테스트케이스 추가)
+SessionService와 게시판 글 업로드하는 과정에서 SessionService와 연동하는 로직개발 - login유무는 interceptor에서 처리할 것이기 때문에 무시
+게시판의 글을 삭제할 수 있다.
+article list에 보여줄 mock data를 위한 Generator TestController 만들기
+export sql, flyway-db-migration tool 설치
+JPA의 Pagable 학습
+게시판 글목록 페이지 만들기
+Paging 구현 (ArticleController, TestCode Refacotoring)
+paging에 대한 UI component 만들기
